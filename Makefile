@@ -1,6 +1,6 @@
 CROSS_IMAGE_NAME   := troian/golang-cross-builder
 IMAGE_NAME         := troian/golang-cross
-GO_VERSION         ?= 1.15.3
+GO_VERSION         ?= 1.15.5
 TAG_VERSION        := v$(GO_VERSION)
 GORELEASER_VERSION := 0.147.2
 GORELEASER_SHA     := 2ee16694ae5be261d3f5b4fef7a700c371119f967cd55060406cee50f857bc2e
